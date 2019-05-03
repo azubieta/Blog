@@ -10,7 +10,7 @@ So I decided to start this blog in order to share my experiences on the field.
 
 Hoping that it could be useful to you,
 
-See you arond
+See you around
 
 Alexis
 
