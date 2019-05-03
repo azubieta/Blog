@@ -3,6 +3,7 @@ layout: post
 title:  "AppImage dependencies management"
 date:   2018-09-25 13:01:32 +0200
 categories: appimage dependencies build
+comments: true
 ---
 
 ## Abstract
