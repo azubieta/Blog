@@ -3,6 +3,7 @@ layout: post
 title:  "Example QtWidgetsApplication packed as AppImage using Conan.io"
 date:   2019-05-16 13:01:32 +0200
 categories: AppImage Conan Qt Example
+comments: true
 ---
 
 # Introduction
