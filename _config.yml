@@ -1,30 +1,29 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: false
+# Site settings
+title: CodeOn
+email: contact@azubieta.net
+description: > # this means to ignore newlines until "baseurl:"
+  This an place do talk about software development, GNU/Linux, AppImages, Desktop Environments and more.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://azubieta.net" # the base hostname & protocol for your site
+twitter_username: azubieta90
+github_username:  azubieta
 
-# Setup
-title:            AZubieta Blog
-tagline:          'Software Development and OpenSource'
-description:      "Hi. I\'m a software developer from Cuba. I have a passion for software architecture and love to create for GNU/Linux."
-url:              https://azubieta.net
-baseurl:          /
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
 
-author:
-  name:           'Alexis Lopez Zubieta'
-  twitter:        'https://twitter.com/azubieta90'
-  github:         'https://github.com/azubieta/'
-  mastodom:       '@azubieta@fosstodon.org'
+# Third-party services
+# just leave someone empty to disable it
+# google_analytics: 
+disqus_shortname: azubieta-net
 
-paginate:         5
-
-
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-
-gems:
-  - jekyll-octicons
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->
