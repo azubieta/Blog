@@ -6,6 +6,7 @@ categories: AppImage UX Desktop_Environments
 comments: true
 ---
 
+# Introduction
 The AppImage project seeks to introduce into the GNU/Linux ecosystem to 
 the best aspects of a MacOS app installation experience, while avoiding 
 its drawbacks. But it faces the fact that there are many GNU/Linux Desktop 
@@ -27,6 +28,7 @@ Which summarizes to: applications packed as single files with icons, metadata,
 applications launcher integration, mime types integration and updates support. 
 All of that available from the different desktop environment components.
 
+# AppImage Services description
 This tool should provide a API that could be used without restriction by 
 every existent desktop environment. As there are many and each one uses
 different technologies we can only rely on using a IPC technique being
@@ -46,14 +48,17 @@ This solution should be packed in a self installable AppImage so no matter
 the target system it could be installed and consumed. This represent our biggest 
 source of uncertainty as it steeps away from the traditional package managers.
 
-Summarizing, AppImage Services is a set of DBus services for managing
+**Summarizing**, AppImage Services is a set of DBus services for managing
 AppImage files in a FreeDesktop standards compatible way presented as a
 self installable AppImage. 
 
 The AppImage Services code can be found at https://www.opencode.net/azubieta/AppImageServices
 binaries are available at https://www.pling.com/p/1315173/
 
-Installation:
+# Installation
+To install AppImage Services you will need a modern GNU/Linux system (>= Ubuntu 16.04)
+with `systemd`. Upstart version still not available but contributions are welcome. 
+
 ```
 wget https://www.opencode.net/azubieta/AppImageService/-/jobs/artifacts/master/raw/appimage-services-x86_64.AppImage?job=build:AppImage -O appimage-service.AppImage
 chmod +x appimage-service.AppImage
