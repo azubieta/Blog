@@ -34,7 +34,7 @@ every existent desktop environment. As there are many and each one uses
 different technologies we can only rely on using a IPC technique being
 DBus our best candidate as it\'s stable, tested and broadly adopted.
 
-Each set of features will should be exposed in a separated interface 
+Each set of features will be exposed in a separated interface 
 (like a micro-service) so the different clients applications doesn't have
 to depend/implement and support a large API. Being the most relevant interfaces:
 - Launcher: responsible for creating launcher entries and of course launch 
