@@ -4,27 +4,27 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
-title:            CodeOn
+title:            AZubieta Blog
 tagline:          'Software Development and OpenSource'
-description:      "I\'m Alexis Lopez, a Cuban software developer and this is my blog. Hope you find it useful. Thanks for reading!"
-url:              http://azubieta.net
+description:      "Hi. I\'m a software developer from Cuba. I have a passion for software architecture and love to create for GNU/Linux."
+url:              https://azubieta.net
 baseurl:          /
 
 author:
   name:           'Alexis Lopez Zubieta'
-  url:            https://twitter.com/azubieta90
+  twitter:        'https://twitter.com/azubieta90'
+  github:         'https://github.com/azubieta/'
+  mastodom:       '@azubieta@fosstodon.org'
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
 
-#github:
-#repo: https://github.com/poole/hyde
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
 
-relative_permalinks: false
-
-plugins: [jekyll-paginate]
+gems:
+  - jekyll-octicons
