@@ -6,7 +6,6 @@ categories: AppImage UX Desktop_Environments
 comments: true
 ---
 
-# Introduction
 The AppImage project seeks to introduce into the GNU/Linux ecosystem to 
 the best aspects of a MacOS app installation experience, while avoiding 
 its drawbacks. But it faces the fact that there are many GNU/Linux Desktop 

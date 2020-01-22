@@ -6,7 +6,6 @@ categories: appimage dependencies build
 comments: true
 ---
 
-## Abstract
 
 Currently the process of producing AppImages is hindered by the burden of making the whole dependency tree relocatable and compatible at binary level with older software. A crowd-sourced repository of binaries could be used to share and reduce this work. Several binaries repositories technologies were analyzed finding Conan as the best match for the AppImage project needs. It address the same issues with binaries, opens a wide range of options for future integration between both projects and also improvements for the AppImage project.
 

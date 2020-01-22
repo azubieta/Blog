@@ -6,7 +6,6 @@ categories: AppImage Build Tools
 comments: true
 ---
 
-# Introduction
 In order to create an AppImage compatible with a wide range of GNU/Linux systems the 
 developer must **choose as build base the oldest LTS system** available in the 
 market (which is Centos 6 at the time of writing this post). Why?

@@ -6,7 +6,6 @@ categories: AppImage Conan Qt Example
 comments: true
 ---
 
-# Introduction
 In a previous [post]({% post_url 2019-05-03-appimage-dependencies-management %})
  was mentioned how well Conan.io and AppImage could work in order to ease the
  production and distribution of your software. In this post, we show a minimal 
