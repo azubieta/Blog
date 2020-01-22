@@ -1,29 +1,55 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: CodeOn
+title: Code Adventures
+author: Alexis Lopez Zubieta
 email: contact@azubieta.net
-description: > # this means to ignore newlines until "baseurl:"
-  This an place do talk about software development, GNU/Linux, AppImages, Desktop Environments and more.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://azubieta.net" # the base hostname & protocol for your site
-twitter_username: azubieta90
-github_username:  azubieta
+description: > # this means to ignore newlines until "show_exerpts:"
+  This an place do talk about software development, GNU/Linux, AppImages,
+  Desktop Environments and more.
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Alexis Lopez
+  tagline: Software Developer
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  disqus_shortname: azubieta-net
+  # generate social links in footer
+  social_links:
+    twitter: azubieta90
+    github:  azubieta
+    telegram: azubieta
+    rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+
+    # Mastodon instances
+    mastodon:
+     - username: azubieta
+       instance: fosstodon.org
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+theme: plainwhite
 
-# Third-party services
-# just leave someone empty to disable it
-# google_analytics: 
-disqus_shortname: azubieta-net
-
-# used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
