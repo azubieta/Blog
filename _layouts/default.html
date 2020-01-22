@@ -19,10 +19,10 @@
               </li>
             </a>
           {%- endif -%}
-          {%- if site.plainwhite.social_links.linkedIn -%}
-            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
+          {%- if site.plainwhite.social_links.mastodon -%}
+            <a href="https://{{ site.plainwhite.social_links.mastodon[0].instance }}/@{{ site.plainwhite.social_links.mastodon[0].username }}">
               <li>
-                <i class="icon-linkedin-squared"></i>
+                <i class="fab fa-mastodon"></i>
               </li>
             </a>
           {%- endif -%}

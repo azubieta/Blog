@@ -50,6 +50,10 @@ plainwhite:
 # Build settings
 theme: plainwhite
 
+font-awesome:
+  assets: true
+
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-font-awesome-sass
