@@ -2,3 +2,16 @@
 ---
 
 @import "plain";
+
+.center-image
+{
+  margin: 0 auto;
+  display: block;
+}
+
+.image-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}

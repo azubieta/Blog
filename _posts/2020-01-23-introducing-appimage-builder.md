@@ -4,10 +4,11 @@ title:  "Introducing AppImage Builder"
 date:   2020-01-23 13:01:32 +0200
 categories: AppImage Packaging Tools AppImageBuilder
 ---
-![Image](https://image.freepik.com/free-vector/open-cardboard-box_152098-20.jpg)
 
 [AppImage Builder](https://github.com/appimagecrafters/appimage-builder) is a recipe based [AppImage](https://appimage.org/) creation tool. That allows producing self-sufficient bundles compatible 
 with a large array of GNU/Linux systems.
+
+![AppImage Builder Logo](/assets/appimage-builder-logo.png){: .center-image }
 
 Distributing a software application in GNU/Linux is a complex task. The only fixed thing is the Linux kernel, besides 
 that, you can find a wide array of base libraries, services, graphic toolkits, audio systems, window management systems, 
@@ -31,7 +32,8 @@ embed and yet it will work on older systems. An interesting side-effect is that 
 executed using `qemu-static` without any special effort.
 
 There is much more to explore on the AppImage Builder and the bundle all AppImages world. In a future post, I'll explain 
-in more detail how to create them, so stay tuned.
+in more detail how to create them.
+Stay tuned!
 
-The AppImage Builder code can be found at [https://github.com/appimagecrafters/appimage-builder]()
+The AppImage Builder source code can be found at [https://github.com/appimagecrafters/appimage-builder]()
 
