@@ -21,26 +21,10 @@ plainwhite:
     twitter: azubieta90
     github:  azubieta
     telegram: azubieta
-    rss: rss
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-
     # Mastodon instances
     mastodon:
      - username: azubieta
        instance: fosstodon.org
-    # - username: jekyll2
-    #   instance: example.com
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
