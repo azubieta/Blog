@@ -7,7 +7,8 @@ categories:
 tags:
  - UX 
  - Desktop Environments
-comments: true
+comments: true 
+image: "img/appimage-cli-tool-log.svg"
 ---
 
 The AppImage project seeks to introduce into the GNU/Linux ecosystem to 
