@@ -6,7 +6,8 @@ draft: false
 categories:
 - appimage
 - appimage-builder
-- linux image: banner.png
+- linux
+image: banner.png
 --- 
 
 
